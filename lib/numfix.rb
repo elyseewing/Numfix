@@ -1,4 +1,16 @@
+# The main Numfix class
 class Numfix
+
+  # Examples:
+  #   >> Numfix.fix(1)
+  #   => 1st
+  #
+  #   >> Numfix.fix(334)
+  #   => 334th
+  #
+  # @param [Integer] number to be suffixed
+  # @return [String] number with suffix attached
+
   def self.fix(number)
     last = number.to_s[-1,1]
     if last == "1"
