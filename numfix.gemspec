@@ -3,7 +3,7 @@ Gem::Specification.new do |s|
   s.version = '0.0.2'
   s.date = '2012-09-30'
   s.summary = "This gem takes a number and returns the appended suffix - 1st, 2nd, 3rd, etc."
-  s.description = "An easy way to suffix your numbers"
+  s.description = 'An easy way to suffix your numbers: Numfix.fix(234) => "234th"'
   s.authors = ["Elyse Dougherty"]
   s.email = 'elysedougherty@gmail.com'
   s.files = ["lib/numfix.rb"]
