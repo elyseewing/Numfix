@@ -1,0 +1,10 @@
+EXAMPLES:
+
+Numfix.fix(1)
+=> "1st"
+
+Numfix.fix(22)
+=> "22nd"
+
+Numfix.fix(334)
+=> "334th"
